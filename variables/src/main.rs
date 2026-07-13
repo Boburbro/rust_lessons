@@ -1,11 +1,12 @@
 fn main() {
-    let mut x = 10;
+    // let mut x: i32 = 2147483647 ;
 
-    println!("Hello guys this is dummy x: {}", x);
-    
+    // println!("{}", x);
 
-    x = 50;
+    let x: i32 = 2147483647;
+    let f: f32 = 6.7;
+    let b: bool = false;
 
+    println!("{}, {}, {}", x, f, b)
 
-    println!("Hello guys this is dummy x: {}", x);
 }

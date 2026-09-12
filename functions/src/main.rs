@@ -61,4 +61,5 @@ fn main() {
     prosess_name("Bobur", |name: &str| {
         println!("{} is on callback", name);
     });
+
 }

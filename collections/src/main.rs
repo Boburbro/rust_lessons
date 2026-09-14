@@ -118,7 +118,13 @@ fn main() {
     hash_values.insert("nah", "yeah");
     hash_values.insert("brah", "bro");
 
-    for (&k, &v) in &hash_values  {
+    for (&k, &v) in &hash_values {
         println!("{}, {}", k, v);
     }
+
+    let iter_vl = vec![1, 2, 3, 4, 5];
+    let mitb_2: Vec<i32> = iter_vl.iter().map(|v| v * 2).collect();
+
+    println!("{:?}", mitb_2);
+
 }
